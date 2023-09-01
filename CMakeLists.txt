@@ -3,4 +3,4 @@ project(hmm C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(hmm hmm.c hmm.h)
+add_executable(hmm hmm.c hmm.h 2_3_A.c)

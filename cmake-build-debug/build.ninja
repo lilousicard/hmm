@@ -55,6 +55,12 @@ build CMakeFiles/hmm.dir/hmm.c.o: C_COMPILER__hmm_Debug /Users/lilou/Code/hmm/hm
   OBJECT_DIR = CMakeFiles/hmm.dir
   OBJECT_FILE_DIR = CMakeFiles/hmm.dir
 
+build CMakeFiles/hmm.dir/2_3_A.c.o: C_COMPILER__hmm_Debug /Users/lilou/Code/hmm/2_3_A.c || cmake_object_order_depends_target_hmm
+  DEP_FILE = CMakeFiles/hmm.dir/2_3_A.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/hmm.dir
+  OBJECT_FILE_DIR = CMakeFiles/hmm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hmm
@@ -63,7 +69,7 @@ build CMakeFiles/hmm.dir/hmm.c.o: C_COMPILER__hmm_Debug /Users/lilou/Code/hmm/hm
 #############################################
 # Link the executable hmm
 
-build hmm: C_EXECUTABLE_LINKER__hmm_Debug CMakeFiles/hmm.dir/hmm.c.o
+build hmm: C_EXECUTABLE_LINKER__hmm_Debug CMakeFiles/hmm.dir/hmm.c.o CMakeFiles/hmm.dir/2_3_A.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/hmm.dir
   POST_BUILD = :
